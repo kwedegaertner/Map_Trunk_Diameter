@@ -19,6 +19,7 @@ Depth → 3D Point Cloud
         │
         ▼
 Trunk Diameter Estimation
+
 ---
 # Pipeline Overview
 
