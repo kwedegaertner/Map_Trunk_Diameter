@@ -5,30 +5,38 @@ This repository contains the code used to estimate tree trunk diameters from syn
 The code was developed for research on spatial variability and tree structural measurements in commercial tart cherry orchards, but the workflow can be applied to other orchard systems or structured tree rows.
 
 ---
+
 ## Processing Pipeline
+
+```text
 RGB + Depth Images
-│
-▼
+        │
+        ▼
 YOLO Object Detection
-│
-▼
+        │
+        ▼
 SAM2 Trunk Segmentation
-│
-▼
+        │
+        ▼
 Depth → 3D Point Cloud
-│
-▼
+        │
+        ▼
 Trunk Diameter Estimation
+```
 
 ---
+
 # Pipeline Overview
 
 The processing workflow consists of the following stages:
+
+```text
 0_Capture_Images
 1_Crop_Images_and_Clean_Dataset
 2_Object_Detection
 3_Trunk_Segmentation
 4_Trunk_Diameter_Estimation
+```
 
 ---
 
