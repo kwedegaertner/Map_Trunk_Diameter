@@ -1,0 +1,95 @@
+# ==================================================
+# Python
+# ==================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==================================================
+# Jupyter Notebooks
+# ==================================================
+.ipynb_checkpoints/
+
+# ==================================================
+# Virtual environments
+# ==================================================
+venv/
+env/
+.venv/
+ENV/
+
+# ==================================================
+# IDE / Editor files
+# ==================================================
+.vscode/
+.idea/
+
+# ==================================================
+# OS generated files
+# ==================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================================================
+# Logs
+# ==================================================
+*.log
+
+# ==================================================
+# Model weights (large files)
+# ==================================================
+*.pt
+*.pth
+*.ckpt
+
+# ==================================================
+# Generated outputs from trunk diameter pipeline
+# ==================================================
+
+# Point clouds
+PointCloud/
+*.ply
+
+# SAM segmentation outputs
+SAM2_mask_data_batch_*.json
+fixed_SAM2_mask_data_batch_*.json
+
+# YOLO output annotations
+yolo_annotations*.json
+
+# Annotated or masked images
+masked_output/
+annotated_images/
+annotated_images_v11/
+
+# Generated CSV outputs
+per_image_results.csv
+per_image_results_combined.csv
+widths_smoothed.csv
+image_matchto_distances.csv
+
+# ==================================================
+# Temporary files
+# ==================================================
+*.tmp
+*.temp
