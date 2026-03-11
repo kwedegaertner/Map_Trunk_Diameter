@@ -7,17 +7,17 @@ The code was developed for research on spatial variability and tree structural m
 ---
 ## Processing Pipeline
 RGB + Depth Images
-        │
-        ▼
+│
+▼
 YOLO Object Detection
-        │
-        ▼
+│
+▼
 SAM2 Trunk Segmentation
-        │
-        ▼
+│
+▼
 Depth → 3D Point Cloud
-        │
-        ▼
+│
+▼
 Trunk Diameter Estimation
 
 ---
