@@ -4,6 +4,8 @@ This repository contains the code used to estimate tree trunk diameters from syn
 
 The code was developed for research on spatial variability and tree structural measurements in commercial tart cherry orchards, but the workflow can be applied to other orchard systems or structured tree rows.
 
+The accompanying paper can be found here: https://doi.org/10.1016/j.atech.2026.102140
+
 ---
 
 ## Processing Pipeline
@@ -157,4 +159,4 @@ Users should provide their own input imagery and depth data when running the pip
 
 # Citation
 
-If you use this code in research, please cite the associated publication describing the trunk diameter mapping method.
+If you use this code in research, please cite the associated publication describing the trunk diameter mapping method. https://doi.org/10.1016/j.atech.2026.102140
